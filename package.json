@@ -1,0 +1,24 @@
+{
+  "name": "elijah-website",
+  "version": "1.0.0",
+  "description": "Elijah Losch Website",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauragonzalezzz/lauragonzalezzz.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauragonzalezzz/lauragonzalezzz.github.io/issues"
+  },
+  "homepage": "https://github.com/lauragonzalezzz/lauragonzalezzz.github.io#readme"
+}
