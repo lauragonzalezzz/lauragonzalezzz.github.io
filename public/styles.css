@@ -1,6 +1,101 @@
 body {
 	background-color: black;
 }
+
+h2 {
+	font-family: 'Kanit', sans-serif;
+	color: dimgray;
+}
+
 .intro-container {
-	background-image: url("img/sample.jpg");
+	height: 90vh;
+	position: relative;
+	background-position: 50%;
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	box-sizing: border-box;
+
+}
+
+.brand-title {
+	font-family: 'Trade Winds', cursive;
+	text-align: center;
+	color: #34000D;
+	font-size: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 25vh;
+}
+
+.brand-content {
+	font-family: 'Kanit', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* Navbar */
+.collapse .navbar-collapse {
+	justify-content: center;
+}
+.nav-item .active {
+	text-decoration: underline;
+}
+/* For navbar style properties, overriding bootstrap*/
+.navbar.center .navbar-inner {
+	text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+	display: inline-block;
+	float: none;
+}
+
+.jumbotron {
+	height: 90vh;
+	background-image: url(img/sample.jpg);
+	position: relative;
+	background-position: 50%;
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+#intro-container {
+	align-items: center;
+}
+
+#intro-bio {
+	font-family: 'Kanit', sans-serif;
+	font-size: 3.5vh;
+	color: darkgray;
+}
+
+#intro-image {
+	/*background-image: url(img/intro.jpg);*/
+	padding-top: 2vh;
+}
+
+.endorsements-container {
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
 }
