@@ -1,3 +1,5 @@
+/*Universal*/
+
 body {
 	background-color: black;
 }
@@ -34,16 +36,6 @@ h2 {
 
 }
 
-.brand-title {
-	font-family: 'Trade Winds', cursive;
-	text-align: center;
-	color: #34000D;
-	font-size: 10vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 25vh;
-}
 
 .brand-content {
 	font-family: 'Kanit', sans-serif;
@@ -54,29 +46,58 @@ h2 {
 
 
 /* Navbar */
-.collapse .navbar-collapse {
-	justify-content: center;
+
+.navbar {
+	background-color: black;
 }
-.nav-item .active {
-	text-decoration: underline;
+.collapse .navbar-collapse {
+	/*justify-content: center;*/
 }
 /* For navbar style properties, overriding bootstrap*/
 .navbar.center .navbar-inner {
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .navbar.center .navbar-inner .nav {
-	display: inline-block;
-	float: none;
+	/*display: inline-block;*/
+	/*float: none;*/
+}
+
+.nav-link {
+	color: white;
+}
+
+.social-icon {
+	padding-left: 15px;
 }
 
 .jumbotron {
 	height: 90vh;
-	background-image: url(img/sample.jpg);
+	padding: 0 0 0 0;
 	position: relative;
-	background-position: 50%;
-	background-size: cover;
-	box-sizing: border-box;
+}
+
+#jumbo-img {
+	width: 100%;
+}
+
+#jumbo-faux-nav {
+	position: absolute;
+	top: 20%;
+	left: 12%;
+	font-family: 'Trade Winds', cursive;
+	color: white;
+	/*color: #34000D;*/
+	/*font-size: 10vh;*/
+}
+
+.brand-title {
+	font-size: 10vh;
+	padding-bottom: 20px;
+}
+
+.faux-nav-link {
+	display: inline;
 }
 
 #intro-container {
