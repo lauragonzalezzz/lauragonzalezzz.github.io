@@ -120,3 +120,18 @@ h2 {
 	justify-content: space-between;
 	flex-wrap: nowrap;
 }
+
+/*.form-container {
+	justify-content: center;
+}*/
+
+#submit-btn {
+	background-color: hotpink;
+	color: black;
+	border-color: gray;
+}
+
+.form-row {
+	margin: 2px;
+	width: 30vw;
+}
