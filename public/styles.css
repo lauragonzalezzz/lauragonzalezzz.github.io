@@ -46,8 +46,11 @@ h2 {
 
 
 /* Navbar */
-
 .navbar {
+	background-color: transparent;
+}
+
+.blackbackground {
 	background-color: black;
 }
 .collapse .navbar-collapse {
