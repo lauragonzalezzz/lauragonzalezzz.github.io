@@ -19,3 +19,7 @@ function toggleNavBackgroundColor() {
       navElement.style.backgroundColor == "black";
     }
 }
+
+function autoScrollOnTimer() {
+  // wip
+}

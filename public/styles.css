@@ -4,38 +4,42 @@ body {
 	background-color: black;
 }
 
+section {
+	/* padding-top: 20px; */
+}
+
 h2 {
 	font-family: 'Kanit', sans-serif;
 	color: dimgray;
+	padding-top: 30px;
 }
 
-.intro-container {
-	height: 90vh;
-	position: relative;
-	background-position: 50%;
-	background-size: cover;
-	box-sizing: border-box;
+.standard-padding {
+	padding-left: 150px;
+	padding-right: 150px;
 }
 
-.container {
-	width: 100%;
-	height: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
+.section-heading {
+	padding-top: 30px;
 	padding-bottom: 50px;
-	margin-right: auto;
-	margin-left: auto;
+	margin-left: -10px;
+	text-decoration: underline;
+}
+
+body-text {
+	font-family: 'Kanit', sans-serif;
+	font-size: 20px;
+	color: darkgray;
 }
 
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	margin-right: -15px;
-	margin-left: -15px;
+	margin-right: 15px;
+	margin-left: 15px;
 	box-sizing: border-box;
 
 }
-
 
 .brand-content {
 	font-family: 'Kanit', sans-serif;
@@ -53,18 +57,6 @@ h2 {
 .blackbackground {
 	background-color: black;
 }
-.collapse .navbar-collapse {
-	/*justify-content: center;*/
-}
-/* For navbar style properties, overriding bootstrap*/
-.navbar.center .navbar-inner {
-	/*text-align: center;*/
-}
-
-.navbar.center .navbar-inner .nav {
-	/*display: inline-block;*/
-	/*float: none;*/
-}
 
 .nav-link {
 	color: white;
@@ -74,60 +66,89 @@ h2 {
 	padding-left: 15px;
 }
 
+/* Jumbotron -- Landing and Bio */
 .jumbotron {
 	height: 90vh;
 	padding: 0 0 0 0;
-	position: relative;
+	background-image: url("img/intro.jpg");
+	background-size: cover;
 }
 
-#jumbo-img {
-	width: 100%;
-}
-
-#jumbo-faux-nav {
-	position: absolute;
-	top: 20%;
-	left: 12%;
-	font-family: 'Trade Winds', cursive;
-	color: white;
-	/*color: #34000D;*/
-	/*font-size: 10vh;*/
-}
-
-.brand-title {
-	font-size: 10vh;
-	padding-bottom: 20px;
-}
-
-.faux-nav-link {
-	display: inline;
-}
-
-#intro-container {
-	align-items: center;
-}
-
-#intro-bio {
+#intro-bio-container {
 	font-family: 'Kanit', sans-serif;
-	font-size: 3.5vh;
-	color: darkgray;
+	color: white;
+	font-size: 25px;
+	padding-right: 15px;
+	padding-left: 150px;
+	width: 45%;
 }
 
-#intro-image {
-	/*background-image: url(img/intro.jpg);*/
-	padding-top: 2vh;
+#brand-title {
+	font-size: 100px;
+	padding-top: 150px;
+	padding-bottom: 20px;
+	margin: -10px;
 }
 
-.endorsements-container {
-	align-items: center;
+#jumbo-bio {
+	width: 85%;
+}
+
+/* Endorsements */
+#endorsement-container {
+	width: 85%;
+	margin: auto;
 	justify-content: space-between;
-	flex-wrap: nowrap;
 }
 
-/*.form-container {
-	justify-content: center;
-}*/
+.end-logo {
+	max-height: 125px;
+	max-width: 400px;
+}
 
+/* Video */
+.video-row {
+	justify-content: space-around;
+}
+
+
+/* Services */
+#services-container {
+	background-image: url("img/11070604_10203305657034545_5196206623599517502_n.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+}
+
+.services-row {
+	justify-content: center;
+}
+
+.col-lg-4-services {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.services-button {
+	background-color: transparent;
+	border: solid;
+	border-width: thin;
+	border-color: orange;
+	height: 200px;
+	color: lightslategray;
+	font-family: 'Kanit', sans-serif;
+	font-size: 45px;
+}
+
+/* Tour */
+.tours-row {
+	justify-content: space-around;
+}
+.sample-tour-img {
+	height: 400px;
+	width: 300px;
+}
+
+/* Contact */
 #submit-btn {
 	background-color: hotpink;
 	color: black;

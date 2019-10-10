@@ -14,187 +14,162 @@
 <body>
 
 <!-- Navigation -->
-	<!-- <div class="navbar-container"> -->
-		<!-- <div class="brand-title">Elijah Losch</div> -->
-		<nav id="navbar" class="navbar fixed-top navbar-expand-md">
-			<a class="navbar-brand" href="#Home">
-				<img src="img/el-small-logo.PNG" alt="EL Logo" class="d-inline" width="30" height="30">
-			</a>
-			<div class="nagivation collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-					<li><a class="nav-link" href="#intro">Home</a></li>
-					<li><a class="nav-link" href="#services">Services</a></li>
-					<li><a class="nav-link" href="#visuals">Visuals</a></li>
-					<li><a class="nav-link" href="#contact">Contact</a></li>
+	<nav id="navbar" class="navbar fixed-top navbar-expand-md">
+		<a class="navbar-brand" href="#Home">
+			<img src="img/el-small-logo.PNG" alt="EL Logo" class="d-inline" width="30" height="30">
+		</a>
+		<div class="nagivation collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li><a class="nav-link" href="#intro">Home</a></li>
+				<li><a class="nav-link" href="#Visuals">Visuals</a></li>
+				<li><a class="nav-link" href="#Services">Services</a></li>
+				<li><a class="nav-link" href="#Tours">Tours</a></li>
+				<li><a class="nav-link" href="#Contact">Contact</a></li>
+			</ul>
+			<div class="navbar-collapse collapse">
+				<ul class="navbar nav ml-auto">
+					<div class="nav-item social-icon">
+						<a href="https://www.instagram.com/vegan_metal_drummer/"><img src="img/ig-logo.png" width="28" height="28" /></a>
+					</div>
+					<div class="nav-item social-icon">
+						<a href="https://www.facebook.com/elijah.losch"><img src="img/fb-logo.png" width="30" height="30" /></a>
+					</div>
 				</ul>
-				<div class="navbar-collapse collapse">
-					<ul class="navbar nav ml-auto">
-						<div class="nav-item social-icon">
-							<a href="https://www.instagram.com/vegan_metal_drummer/"><img src="img/ig-logo.png" width="28" height="28" /></a>
-						</div>
-						<div class="nav-item social-icon">
-							<a href="https://www.facebook.com/elijah.losch"><img src="img/fb-logo.png" width="30" height="30" /></a>
-						</div>
-					</ul>
+			</div>
+		</div>
+	</nav>
+
+<!-- Landing and Bio  -->
+  	<section id="intro">
+		<div class="jumbotron jumbotron-fluid">
+			<div id="intro-bio-container" class="row">
+				<div id="brand-title">Elijah Losch</div>
+				<p id="jumbo-bio">Elijah Losch is a freelance extreme metal drummer based out of Portland, Oregon,
+					who plays for numerous acts across the Pacific Northwest. Elijah began playing semi
+					professionally at the age of 17 for symphonic black metal band Mortal Plague (now inactive).
+					Since then Elijah has gained popularity amongst	the metal community playing for other acts
+					such as Silver Talon, The Devils of Loudun, Divitius, and many more.
+					Elijah has multiple endorsements including Vratim, Czarcie Kopyto, and Scorpion. 
+				</p>
+			</div>
+		</div>
+	</section>
+<!-- Endorsements -->
+<!-- Special Padding to allow logos to go beyond the standard 150px on each side -->
+	<section id="endorsements">
+		<div id="endorsement-container" class="row">
+			<img src="img/vratim-logo.png" class="img-fluid end-logo"/>
+			<img src="img/ck.jpg" class="img-fluid end-logo"/>
+			<img src="img/Meinl.png" class="img-fluid end-logo" />
+			<img src="img/scorpion.png" class="img-fluid end-logo" style="background-color:white" />
+		</div>
+	</section> <!-- Endorsements -->
+
+<!-- Services -->
+<section id="Services" class="standard-padding">
+		<h2 class="section-heading">Services</h2>
+		<div id="services-container">
+			<div class="row services-row">
+				<div class="col-lg-4 col-lg-4-services">
+					<button class="btn btn-block services-button">Touring</button>
+				</div>
+				<div class="col-lg-4 col-lg-4-services">
+					<button class="btn btn-block services-button">Session Recording</button>
 				</div>
 			</div>
-		</nav>
-	<!-- </div> -->
-
-
-
-<!-- Landing -->
-  <section id="intro">
-  	<div class="jumbotron jumbotron-fluid" id="jumbo">
-  		<div id="jumbo-faux-nav">
-			<div class="brand-title">Elijah Losch</div>
-			<a class="nav-link faux-nav-link" href="#services">Services</a>
-			<a class="nav-link faux-nav-link" href="#visuals">Visuals</a>
-			<a class="nav-link faux-nav-link" href="#Contact">Contact</a>
-  		</div>
-  		<img src="img/intro.jpg" id="jumbo-img">
-  	</div>
-    
-	<!-- Bio -->
-	<div class="container">
-		<h2>Bio</h2>
-		<div class="row" id="intro-container">
-			<div class="col-lg-6 col-sm-12" id="intro-bio">
-				<p>Professional extreme metal drummer based in the Pacific Northwest. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-
-			</div>
-			<div class="col-lg-6 col-sm-12" id="intro-image">
-				<img class="img-fluid" src="img/intro.jpg" alt="Elijah Drumming"/>
+			<div class="row services-row">
+				<div class="col-lg-4 col-lg-4-services">
+					<button class="btn btn-block services-button">Audio Engineering</button>
+				</div>
+				<div class="col-lg-4 col-lg-4-services">
+					<button class="btn btn-block services-button">Gear Rental</button>
+				</div>
 			</div>
 		</div>
-	</div>
-  </section> <!-- Intro -->
+	</section> <!-- Services -->
 
-  <!-- <section id="endorsements">
-  	<div id="endorsement-carousel" class="carousel slide" data-ride="carousel">
-  		<div class="carousel-inner">
-  			<div class="carousel-item active">
-  				<img src="img/ck.jpg" class="img-fluid"/>
-  			</div>
-  			<div class="carousel-item">
-  				<img src="img/scorpion.png" class="img-fluid" style="background-color: white"/>
-  			</div>
-  			<div class="carousel-item">
-  				<img src="img/Meinl.png" class="img-fluid"/>
+<!-- Videos -->
+<!-- Todo: Make remaining visuals into separate page linked by the Videos section link -->
+	<section id="Visuals" class="standard-padding">
+		<h2 class="section-heading">Visuals</h2>
+		<div class="visuals-container">
+			<div class="row video-row">
+				<iframe width="400" height="225" src="https://www.youtube.com/embed/WZbQmKKy7xQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="400"  height="225" src="https://www.youtube.com/embed/Mue-3EqL_kk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="400" height="225" src="https://www.youtube.com/embed/i0naMVSDn-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 			</div>
-			<div class="carousel-item">
-				<img src="img/vratim-logo.png" class="img-fluid"/>
-			</div>
-  		</div>
-  	</div>
-  </section> -->
+			<!-- <div class="row video-row">
+				<iframe width="400" height="225" src="https://www.youtube.com/embed/VZuLLQf9Yhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="400"  height="225" src="https://www.youtube.com/embed/-7yCntRH14M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="400" height="225" src="https://www.youtube.com/embed/2qL-jqdFIbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div> -->
+		</div>
+	</section> <!-- Visuals -->
 
-  <section id="services">
-  	<!-- Services -->
-	<div class="container">
-		<h2>Services</h2>
-		<div class="row" id="intro-container">
-			<div class="col-lg-6 col-sm-12" id="intro-image">
-				<img class="img-fluid" src="img/services.jpg" alt="Elijah Drumming"/>
+<!-- Tours -->
+	<section id="Tours" class="standard-padding">
+		<h2 class="section-heading">Tours</h2>
+		<div class="row tours-row">
+			<div>
+				<img class="sample-tour-img" src="img/28168015_10210296714446611_6613566166237314428_n.jpg">
 			</div>
-			<div class="col-lg-6 col-sm-12" id="intro-bio">
-				<ul>
-					<li>Service</li>
-					<li>Service</li>
-					<li>Service</li>
-					<li>Service</li>
-					<li>Bullshit</li>
-				</ul>
-
+			<div>
+				<img class="sample-tour-img" src="img/28168015_10210296714446611_6613566166237314428_n.jpg">
+			</div>
+			<div>
+				<img class="sample-tour-img" src="img/28168015_10210296714446611_6613566166237314428_n.jpg">
+			</div>
+			<div>
+				<img class="sample-tour-img" src="img/28168015_10210296714446611_6613566166237314428_n.jpg">
 			</div>
 		</div>
-	</div>
-  </section> <!-- Services -->
+	</section> <!-- Tours -->
 
-  <section id="Visuals">
-  	<div class="container visuals-container">
-  		<h2>Visuals</h2>
-  		<div class="row">
-  			<iframe width="560" height="315" src="https://www.youtube.com/embed/WZbQmKKy7xQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  			<iframe width="560" height="315" src="https://www.youtube.com/embed/Mue-3EqL_kk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  			<iframe width="560" height="315" src="https://www.youtube.com/embed/-7yCntRH14M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  			<iframe width="560" height="315" src="https://www.youtube.com/embed/VZuLLQf9Yhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  			<iframe width="560" height="315" src="https://www.youtube.com/embed/2qL-jqdFIbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  			<iframe width="560" height="315" src="https://www.youtube.com/embed/i0naMVSDn-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  			
-  		</div>
-  	</div>
-  </section> <!-- Visuals -->
-
-  <section id="Contact">
-	<div class="container contact-container">
-		<h2>Contact</h2>
-		<div class="row form-container">
-			<div class="col-lg-6 col-sm-12">
-				<form>
-					<form-group>
-						<div class="form-row">
-							<!-- <div class="col"> -->
-								<input type="email" class="form-control" placeholder="Email address" />
-							<!-- </div> -->
-						</div>
-						<div class="form-row">
-							<!-- <div class="col"> -->
-								<select class="form-control">
-									<option vale="" disabled selected>What's this about?</option>
-									<option>Drumming Services</option>
-									<option>Audio & Video Services</option>
-									<option>Rentals</option>
-									<option>Other</option>
-								</select>
-							<!-- </div> -->
-						</div>
-						<div class="form-row">
-							<!-- <div class="col"> -->
-								<textarea class="form-control" rows="5"></textarea>
-							<!-- </div> -->
-						</div>
-						<div class="form-row">
-							<!-- <div class="col"> -->
-								<input type="submit" class="btn btn-block btn-submit" id="submit-btn" value="Submit" name="submit"/>
-							<!-- </div> -->
-						</div>
-					</form-group>
-				</form>
-			</div>
-			<div class="col-lg-6 col-sm-12">
-				
+<!-- Contact -->
+	<section id="Contact" class="standard-padding">
+		<h2 class="section-heading">Contact</h2>
+		<div class="contact-container">
+			<div class="row form-container">
+				<div class="col-lg-6 col-sm-12">
+					<form>
+						<form-group>
+							<div class="form-row">
+								<!-- <div class="col"> -->
+									<input type="email" class="form-control" placeholder="Email address" />
+								<!-- </div> -->
+							</div>
+							<div class="form-row">
+								<!-- <div class="col"> -->
+									<select class="form-control">
+										<option vale="" disabled selected>What's this about?</option>
+										<option>Drumming Services</option>
+										<option>Audio & Video Services</option>
+										<option>Rentals</option>
+										<option>Other</option>
+									</select>
+								<!-- </div> -->
+							</div>
+							<div class="form-row">
+								<!-- <div class="col"> -->
+									<textarea class="form-control" rows="5"></textarea>
+								<!-- </div> -->
+							</div>
+							<div class="form-row">
+								<!-- <div class="col"> -->
+									<input type="submit" class="btn btn-block btn-submit" id="submit-btn" value="Submit" name="submit"/>
+								<!-- </div> -->
+							</div>
+						</form-group>
+					</form>
+				</div>
+				<div class="col-lg-6 col-sm-12">
+					
+				</div>
 			</div>
 		</div>
-	</div>
+  	</section> <!-- Contact -->
 
-  </section> <!-- Contact -->
-
-  <section id="Endorsements">
-  	<div class="container">
-		<div>
-			<h2>Endorsements</h2>
-		</div>
-		<div class="row endorsements-container">
-			<img src="img/ck.jpg" class="img-fluid"/>
-			<img src="img/scorpion.png" class="img-fluid" style="background-color: white"/>
-		</div>
-		<div class="row endorsements-container">
-			<div class="col edrsmt-img">
-				<img src="img/Meinl.png" class="img-fluid"/>
-			</div>
-		</div>
-		<div class="row endorsements-container">
-			<div class="col edrsmt-img">
-				<img src="img/vratim-logo.png" class="img-fluid"/>
-			</div>
-		</div>
-	</div>
-  </section>
-
+  
   <footer>
   	<div>Laura <3</div>
   </footer>
