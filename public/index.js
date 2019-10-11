@@ -2,10 +2,10 @@
 
 var jumboElement = document.getElementById("jumbo");
 
-setTimeout(function() {
-  var navEl = document.getElementById("navbar");
-  navEl.classList.add("blackbackground");
-}, 3000);
+// setTimeout(function() {
+//   var navEl = document.getElementById("navbar");
+//   navEl.classList.add("blackbackground");
+// }, 3000);
 
 
 function toggleNavBackgroundColor() {

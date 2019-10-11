@@ -4,10 +4,6 @@ body {
 	background-color: black;
 }
 
-section {
-	/* padding-top: 20px; */
-}
-
 h2 {
 	font-family: 'Kanit', sans-serif;
 	color: dimgray;
@@ -17,6 +13,11 @@ h2 {
 .standard-padding {
 	padding-left: 150px;
 	padding-right: 150px;
+}
+
+.standard-small-padding {
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .section-heading {
@@ -58,7 +59,7 @@ body-text {
 	background-color: black;
 }
 
-.nav-link {
+.navbar-dark .navbar-nav .nav-link {
 	color: white;
 }
 
@@ -66,12 +67,13 @@ body-text {
 	padding-left: 15px;
 }
 
-/* Jumbotron -- Landing and Bio */
+/* Large Jumbotron -- Landing and Bio */
 .jumbotron {
 	height: 90vh;
 	padding: 0 0 0 0;
 	background-image: url("img/intro.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #intro-bio-container {
@@ -92,6 +94,21 @@ body-text {
 
 #jumbo-bio {
 	width: 85%;
+}
+
+/* Small Jumbotron & Bio */
+.small-jumbo {
+	background-color: black;
+	font-family: 'Kanit', sans-serif;
+	color: white;
+}
+
+#small-brand-title {
+	font-size: 30px;
+}
+
+#small-jumbo-bio {
+	font-size: 16px;
 }
 
 /* Endorsements */
@@ -158,4 +175,49 @@ body-text {
 .form-row {
 	margin: 2px;
 	width: 30vw;
+}
+
+/* Mobile */
+#small-brand-title {
+	background-image: url("img/intro.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 40vh;
+	margin: -10px;
+}
+
+#small-logo {
+	margin: 10px;
+}
+
+#small-brand-text {
+	margin: 10px;
+}
+
+.card-header {
+	background-color: black;
+	color: orange;
+}
+
+.card-body {
+	background-color: black;
+}
+
+.end-row-sm {
+	align-items: center;
+}
+
+#meinl {
+	max-height: 30px;
+}
+
+.services-row-sm {
+
+}
+
+.services-btn-sm {
+	border-color: orange;
+	color: orange;
+	height: 100px;
 }
